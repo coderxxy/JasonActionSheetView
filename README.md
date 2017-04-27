@@ -18,6 +18,7 @@ XXYActionSheetView *alertSheetView = [[XXYActionSheetView alloc] initWithTitle:@
 [alertSheetView xxy_show];
 
 调用代理方法
+
 #pragma mark - XXYActionSheetViewDelegate
 - (void)actionSheet:(XXYActionSheetView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     NSLog(@"delegate点击的是:%zd", buttonIndex);
@@ -27,6 +28,7 @@ XXYActionSheetView *alertSheetView = [[XXYActionSheetView alloc] initWithTitle:@
 }
 
 2.使用block方式
+
 XXYActionSheetView *alertSheetView = [[XXYActionSheetView alloc] initWithTitle:nil cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@[@"打开相册", @"相机", @"微信支付", @"支付宝支付"] actionSheetBlock:^(NSInteger index) {
             NSLog(@"block点击的是:%zd", index);
             if (0 == index) {
