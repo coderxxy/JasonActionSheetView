@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BC63C61EB1CF4700943DA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63C51EB1CF4700943DA3 /* main.m */; };
+		96BC63C91EB1CF4700943DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63C81EB1CF4700943DA3 /* AppDelegate.m */; };
+		96BC63CB1EB1CF4700943DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BC63CA1EB1CF4700943DA3 /* Assets.xcassets */; };
+		96BC63CE1EB1CF4700943DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BC63CC1EB1CF4700943DA3 /* LaunchScreen.storyboard */; };
+		96BC63D91EB1CF4700943DA3 /* JasonActionSheetViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63D81EB1CF4700943DA3 /* JasonActionSheetViewTests.m */; };
+		96BC63E41EB1CF4700943DA3 /* JasonActionSheetViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63E31EB1CF4700943DA3 /* JasonActionSheetViewUITests.m */; };
+		96BC63F51EB1CFBC00943DA3 /* JasonAcitonSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63F41EB1CFBC00943DA3 /* JasonAcitonSheetViewController.m */; };
+		96BC63FD1EB1D2DF00943DA3 /* UIImage+XXYImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63F81EB1D2DF00943DA3 /* UIImage+XXYImageColor.m */; };
+		96BC63FE1EB1D2DF00943DA3 /* UIView+XXYViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63FA1EB1D2DF00943DA3 /* UIView+XXYViewFrame.m */; };
+		96BC63FF1EB1D2DF00943DA3 /* XXYActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC63FC1EB1D2DF00943DA3 /* XXYActionSheetView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BC63D51EB1CF4700943DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BC63B91EB1CF4700943DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BC63C01EB1CF4700943DA3;
+			remoteInfo = JasonActionSheetView;
+		};
+		96BC63E01EB1CF4700943DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BC63B91EB1CF4700943DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BC63C01EB1CF4700943DA3;
+			remoteInfo = JasonActionSheetView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96BC63C11EB1CF4700943DA3 /* JasonActionSheetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonActionSheetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC63C51EB1CF4700943DA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96BC63C71EB1CF4700943DA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = JasonActionSheetView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		96BC63C81EB1CF4700943DA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JasonActionSheetView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		96BC63CA1EB1CF4700943DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BC63CD1EB1CF4700943DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96BC63CF1EB1CF4700943DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BC63D41EB1CF4700943DA3 /* JasonActionSheetViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonActionSheetViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC63D81EB1CF4700943DA3 /* JasonActionSheetViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JasonActionSheetViewTests.m; sourceTree = "<group>"; };
+		96BC63DA1EB1CF4700943DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BC63DF1EB1CF4700943DA3 /* JasonActionSheetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonActionSheetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC63E31EB1CF4700943DA3 /* JasonActionSheetViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JasonActionSheetViewUITests.m; sourceTree = "<group>"; };
+		96BC63E51EB1CF4700943DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BC63F31EB1CFBC00943DA3 /* JasonAcitonSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasonAcitonSheetViewController.h; sourceTree = "<group>"; };
+		96BC63F41EB1CFBC00943DA3 /* JasonAcitonSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonAcitonSheetViewController.m; sourceTree = "<group>"; };
+		96BC63F71EB1D2DF00943DA3 /* UIImage+XXYImageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XXYImageColor.h"; sourceTree = "<group>"; };
+		96BC63F81EB1D2DF00943DA3 /* UIImage+XXYImageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XXYImageColor.m"; sourceTree = "<group>"; };
+		96BC63F91EB1D2DF00943DA3 /* UIView+XXYViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XXYViewFrame.h"; sourceTree = "<group>"; };
+		96BC63FA1EB1D2DF00943DA3 /* UIView+XXYViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXYViewFrame.m"; sourceTree = "<group>"; };
+		96BC63FB1EB1D2DF00943DA3 /* XXYActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYActionSheetView.h; sourceTree = "<group>"; };
+		96BC63FC1EB1D2DF00943DA3 /* XXYActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYActionSheetView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BC63BE1EB1CF4700943DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63D11EB1CF4700943DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63DC1EB1CF4700943DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BC63B81EB1CF4700943DA3 = {
+			isa = PBXGroup;
+			children = (
+				96BC63C31EB1CF4700943DA3 /* JasonActionSheetView */,
+				96BC63D71EB1CF4700943DA3 /* JasonActionSheetViewTests */,
+				96BC63E21EB1CF4700943DA3 /* JasonActionSheetViewUITests */,
+				96BC63C21EB1CF4700943DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BC63C21EB1CF4700943DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63C11EB1CF4700943DA3 /* JasonActionSheetView.app */,
+				96BC63D41EB1CF4700943DA3 /* JasonActionSheetViewTests.xctest */,
+				96BC63DF1EB1CF4700943DA3 /* JasonActionSheetViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BC63C31EB1CF4700943DA3 /* JasonActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63F61EB1D29F00943DA3 /* AppDelegate */,
+				96BC63F21EB1CF9700943DA3 /* JasonActionSheetViewVC */,
+				96BC63F11EB1CF7400943DA3 /* JasonAcitonSheetViewUtil */,
+				96BC63C41EB1CF4700943DA3 /* Supporting Files */,
+			);
+			path = JasonActionSheetView;
+			sourceTree = "<group>";
+		};
+		96BC63C41EB1CF4700943DA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63CA1EB1CF4700943DA3 /* Assets.xcassets */,
+				96BC63CC1EB1CF4700943DA3 /* LaunchScreen.storyboard */,
+				96BC63CF1EB1CF4700943DA3 /* Info.plist */,
+				96BC63C51EB1CF4700943DA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96BC63D71EB1CF4700943DA3 /* JasonActionSheetViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63D81EB1CF4700943DA3 /* JasonActionSheetViewTests.m */,
+				96BC63DA1EB1CF4700943DA3 /* Info.plist */,
+			);
+			path = JasonActionSheetViewTests;
+			sourceTree = "<group>";
+		};
+		96BC63E21EB1CF4700943DA3 /* JasonActionSheetViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63E31EB1CF4700943DA3 /* JasonActionSheetViewUITests.m */,
+				96BC63E51EB1CF4700943DA3 /* Info.plist */,
+			);
+			path = JasonActionSheetViewUITests;
+			sourceTree = "<group>";
+		};
+		96BC63F11EB1CF7400943DA3 /* JasonAcitonSheetViewUtil */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63F71EB1D2DF00943DA3 /* UIImage+XXYImageColor.h */,
+				96BC63F81EB1D2DF00943DA3 /* UIImage+XXYImageColor.m */,
+				96BC63F91EB1D2DF00943DA3 /* UIView+XXYViewFrame.h */,
+				96BC63FA1EB1D2DF00943DA3 /* UIView+XXYViewFrame.m */,
+				96BC63FB1EB1D2DF00943DA3 /* XXYActionSheetView.h */,
+				96BC63FC1EB1D2DF00943DA3 /* XXYActionSheetView.m */,
+			);
+			path = JasonAcitonSheetViewUtil;
+			sourceTree = "<group>";
+		};
+		96BC63F21EB1CF9700943DA3 /* JasonActionSheetViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63F31EB1CFBC00943DA3 /* JasonAcitonSheetViewController.h */,
+				96BC63F41EB1CFBC00943DA3 /* JasonAcitonSheetViewController.m */,
+			);
+			name = JasonActionSheetViewVC;
+			path = JasonActionSheetView;
+			sourceTree = "<group>";
+		};
+		96BC63F61EB1D29F00943DA3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				96BC63C71EB1CF4700943DA3 /* AppDelegate.h */,
+				96BC63C81EB1CF4700943DA3 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BC63C01EB1CF4700943DA3 /* JasonActionSheetView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC63E81EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetView" */;
+			buildPhases = (
+				96BC63BD1EB1CF4700943DA3 /* Sources */,
+				96BC63BE1EB1CF4700943DA3 /* Frameworks */,
+				96BC63BF1EB1CF4700943DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasonActionSheetView;
+			productName = JasonActionSheetView;
+			productReference = 96BC63C11EB1CF4700943DA3 /* JasonActionSheetView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96BC63D31EB1CF4700943DA3 /* JasonActionSheetViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC63EB1EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetViewTests" */;
+			buildPhases = (
+				96BC63D01EB1CF4700943DA3 /* Sources */,
+				96BC63D11EB1CF4700943DA3 /* Frameworks */,
+				96BC63D21EB1CF4700943DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BC63D61EB1CF4700943DA3 /* PBXTargetDependency */,
+			);
+			name = JasonActionSheetViewTests;
+			productName = JasonActionSheetViewTests;
+			productReference = 96BC63D41EB1CF4700943DA3 /* JasonActionSheetViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96BC63DE1EB1CF4700943DA3 /* JasonActionSheetViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC63EE1EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetViewUITests" */;
+			buildPhases = (
+				96BC63DB1EB1CF4700943DA3 /* Sources */,
+				96BC63DC1EB1CF4700943DA3 /* Frameworks */,
+				96BC63DD1EB1CF4700943DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BC63E11EB1CF4700943DA3 /* PBXTargetDependency */,
+			);
+			name = JasonActionSheetViewUITests;
+			productName = JasonActionSheetViewUITests;
+			productReference = 96BC63DF1EB1CF4700943DA3 /* JasonActionSheetViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BC63B91EB1CF4700943DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jason_Xu;
+				TargetAttributes = {
+					96BC63C01EB1CF4700943DA3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					96BC63D31EB1CF4700943DA3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96BC63C01EB1CF4700943DA3;
+					};
+					96BC63DE1EB1CF4700943DA3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96BC63C01EB1CF4700943DA3;
+					};
+				};
+			};
+			buildConfigurationList = 96BC63BC1EB1CF4700943DA3 /* Build configuration list for PBXProject "JasonActionSheetView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96BC63B81EB1CF4700943DA3;
+			productRefGroup = 96BC63C21EB1CF4700943DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BC63C01EB1CF4700943DA3 /* JasonActionSheetView */,
+				96BC63D31EB1CF4700943DA3 /* JasonActionSheetViewTests */,
+				96BC63DE1EB1CF4700943DA3 /* JasonActionSheetViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BC63BF1EB1CF4700943DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC63CB1EB1CF4700943DA3 /* Assets.xcassets in Resources */,
+				96BC63CE1EB1CF4700943DA3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63D21EB1CF4700943DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63DD1EB1CF4700943DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BC63BD1EB1CF4700943DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC63C91EB1CF4700943DA3 /* AppDelegate.m in Sources */,
+				96BC63FD1EB1D2DF00943DA3 /* UIImage+XXYImageColor.m in Sources */,
+				96BC63FF1EB1D2DF00943DA3 /* XXYActionSheetView.m in Sources */,
+				96BC63FE1EB1D2DF00943DA3 /* UIView+XXYViewFrame.m in Sources */,
+				96BC63F51EB1CFBC00943DA3 /* JasonAcitonSheetViewController.m in Sources */,
+				96BC63C61EB1CF4700943DA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63D01EB1CF4700943DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC63D91EB1CF4700943DA3 /* JasonActionSheetViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC63DB1EB1CF4700943DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC63E41EB1CF4700943DA3 /* JasonActionSheetViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BC63D61EB1CF4700943DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BC63C01EB1CF4700943DA3 /* JasonActionSheetView */;
+			targetProxy = 96BC63D51EB1CF4700943DA3 /* PBXContainerItemProxy */;
+		};
+		96BC63E11EB1CF4700943DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BC63C01EB1CF4700943DA3 /* JasonActionSheetView */;
+			targetProxy = 96BC63E01EB1CF4700943DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96BC63CC1EB1CF4700943DA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BC63CD1EB1CF4700943DA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BC63E61EB1CF4700943DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96BC63E71EB1CF4700943DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BC63E91EB1CF4700943DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonActionSheetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96BC63EA1EB1CF4700943DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonActionSheetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96BC63EC1EB1CF4700943DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JasonActionSheetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonActionSheetView.app/JasonActionSheetView";
+			};
+			name = Debug;
+		};
+		96BC63ED1EB1CF4700943DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JasonActionSheetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonActionSheetView.app/JasonActionSheetView";
+			};
+			name = Release;
+		};
+		96BC63EF1EB1CF4700943DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JasonActionSheetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JasonActionSheetView;
+			};
+			name = Debug;
+		};
+		96BC63F01EB1CF4700943DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JasonActionSheetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.JasonActionSheetViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JasonActionSheetView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BC63BC1EB1CF4700943DA3 /* Build configuration list for PBXProject "JasonActionSheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC63E61EB1CF4700943DA3 /* Debug */,
+				96BC63E71EB1CF4700943DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BC63E81EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC63E91EB1CF4700943DA3 /* Debug */,
+				96BC63EA1EB1CF4700943DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96BC63EB1EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC63EC1EB1CF4700943DA3 /* Debug */,
+				96BC63ED1EB1CF4700943DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96BC63EE1EB1CF4700943DA3 /* Build configuration list for PBXNativeTarget "JasonActionSheetViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC63EF1EB1CF4700943DA3 /* Debug */,
+				96BC63F01EB1CF4700943DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BC63B91EB1CF4700943DA3 /* Project object */;
+}
